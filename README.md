@@ -6,6 +6,8 @@ Project has certain pre-requsites before we can use it. We are using postgres sq
 
 Attached a script to download and install dependencies of project in dependencies.sh for ubuntu server.
 
+Issue the command "sh dependencies.sh" and dependencies should be installed.
+
 It can be changed correspondingly depending upon the OS you are working on. For eg: apt-get can be replaced with brew in Mac OS X.
 
 After installing the dependencies, we need to create the database structure for tournament data to be stored to be used by the python app. Follow the following steps:
